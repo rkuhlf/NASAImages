@@ -1,0 +1,13 @@
+{
+  "name": "NASA",
+  "manifest_version": 2,
+  "description": "NASA image of the day",
+  "version": "0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
